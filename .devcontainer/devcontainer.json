@@ -14,12 +14,14 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"terminal.integrated.shell.linux": "/usr/share/powershell/pwsh"
+		// "terminal.integrated.shell.linux": "/usr/share/powershell/pwsh"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-dotnettools.csharp"
+		"ms-dotnettools.csharp",
+		"ms-vscode.powershell",
+		"ms-vscode.vscode-node-azure-pack"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
