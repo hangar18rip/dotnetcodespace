@@ -8,13 +8,13 @@
 			// Options
 			"INSTALL_NODE": "true",
 			"NODE_VERSION": "lts/*",
-			"INSTALL_AZURE_CLI": "false"
+			"INSTALL_AZURE_CLI": "true"
 		}
 	},
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.shell.linux": "/usr/share/powershell/pwsh"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
